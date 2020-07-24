@@ -3,10 +3,12 @@
 
 {% block content %}
     <div class="page-wrap">
-        <form class="" action="#" method="POST">
+        <form class="" action="" method="POST">
+            {% csrf_token %}
             <div>
                 <label for="textarea">Text Area:</label>
                 <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+                <input type="submit" value="Predict">
             </div>
         </form>    
     </div>
