@@ -1,9 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300);
 @import url(https://fonts.googleapis.com/css?family=Share+Tech);
 
-*{
-    box-sizing: border-box;
-}
 
 body {
     background: url(https://subtlepatterns.com/patterns/wild_oliva_@2X.png);
@@ -14,38 +11,10 @@ body {
     font-size: 62.5%;
 }
 
-.page-wrap {
-    max-width: 1140px;
-    margin: 0 auto;
-    background: rgba(black, 0.35);
-    padding: 0 0 20px 0;
-}
 
 h1 {
     padding:10px 0 20px 0;
     font-size: 3.6em;
     font-weight:bold;
     text-align:center;
-}
-
-form {
-    font-size: 1.6em;
-    margin: 0 20px 0 20px;
-}
-
-label, input, textarea {
-    margin-bottom: 10px;
-    font-family: 'Oswald', Arial, sans-serif;
-    width: 50%;
-}
-
-select {
-    margin-bottom: 10px;
-    font-family: 'Oswald', Arial, sans-serif;
-}
-
-
-form label {
-    padding-right: 15px;
-    vertical-align:top;
 }
