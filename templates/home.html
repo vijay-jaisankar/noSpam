@@ -2,12 +2,19 @@
 
 
 {% block content %}
-    <div class="page-wrap">
-        <form class="" action="" method="POST">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <input type="submit" value="Predict">
-        </form>    
+    <div class="jumbotron jumbotron-fluid">
+        <!-- Adjusting height-->
+        <span style="display:block; height: 66px;"></span>
+        <div class="col-xs-12 col-md-4 offset-md-4">
+            <form class="" action="" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <p class = "text-center mx-auto"> 
+                    <button type="submit" class="btn btn-primary">Predict</button>
+                </p>
+            </form>    
+        </div>    
     </div>
+    
     
 {% endblock content %}
