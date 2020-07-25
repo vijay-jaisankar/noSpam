@@ -1,20 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:300);
-@import url(https://fonts.googleapis.com/css?family=Share+Tech);
-
-
-body {
-    background: url(https://subtlepatterns.com/patterns/wild_oliva_@2X.png);
-    background-size: 300px 300px;
-    margin: 30px 0 30px 0;
-    color: white;
-    font-family: 'Oswald', Arial, sans-serif;
-    font-size: 62.5%;
+label,textarea{
+  display:inline-block;
+  vertical-align:middle;
 }
 
-
-h1 {
-    padding:10px 0 20px 0;
-    font-size: 3.6em;
-    font-weight:bold;
-    text-align:center;
+.jumbotron {
+    background: rgb(193,193,193);
+    background: linear-gradient(180deg, rgba(193,193,193,1) 0%, rgba(233,233,233,1) 48%, rgba(255,255,255,1) 100%);
 }
