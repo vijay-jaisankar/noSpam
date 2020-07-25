@@ -9,6 +9,8 @@ def index(request) :
     if request.method == "POST" :
         message = request.POST.get('message')
         print(message)
+        result = predictValue(message)
+        print(result)
     
     form = PredictForm()
     return render(request,"home.html",{"title":"Home","form":form})
